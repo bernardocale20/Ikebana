@@ -114,7 +114,7 @@ function pontuacao(acao){
 
 function situacao_jogo(baloes_inteiros){ //Aqui eu passo por parametro os baloes_inteiros caso chegue a 0 eu faço a verificação e dou um alert dizendo que o jogo foi vencido
 	if(baloes_inteiros == 0){
-		alert('Parabéns, você conseguiu destruir todos os asteroides a tempo.');
+		alert('Parabéns, você conseguiu coletar todos os mels antes do fim do tempo.');
 		parar_jogo(); //Essa função para o tempo, dar uma limpa no timeout caso vc complete antes do tempo chegar a 0
 	}
 }
