@@ -67,7 +67,7 @@ function cria_baloes(qtde_baloes){
 	for(var i = 1; i <= qtde_baloes; i++){
 
 		var balao = document.createElement("img"); //Aqui eu crio um DOM, no qual eu posso manipular elementos htmls dentro do proprio js, no caso um elemento img numa variavel balao//
-		balao.src = 'a11.png'; //Aqui eu atribuo uma foto a esse elemento e embaixo eu dou uma imagem//
+		balao.src = 'melpequeno.png'; //Aqui eu atribuo uma foto a esse elemento e embaixo eu dou uma imagem//
 		balao.style.margin = '12px 0px 10px 10px';
 		balao.id = 'b'+i; //O B é o id que eu dou para o balao e como o id eh uma referncia unica eu concateno a cada loop do laço for, ou seja cada balao tera ids diferentes., ex: b1.
 		balao.onclick = function(){ estourar(this); };  //No clique chama a função estourar que troca a imagem de balao para balao estourado,
@@ -87,7 +87,7 @@ function estourar(e){ //Função de estourar os balões recebida com o parametro
 	document.getElementById(id_balao).setAttribute("onclick", "") //Isso aqui evita um bug no qual eu passo um parametro fazendo com que um atributo nao se repita, fique vazio
 	//tipo eu corrijo o bug no qual eu possa clicar continuamente num balao e continuar marcando ponto.
 
-	document.getElementById(id_balao).src = 'a1.png'; //Troca a imagem de balão normal para estourado
+	document.getElementById(id_balao).src = 'estouropequeno.png'; //Troca a imagem de balão normal para estourado
 
 	pontuacao(-1);  //Reduz um balão do total dos não estourado e poe abaixo no estourados segundo a função pontuação escrita abaixo
 
