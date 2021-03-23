@@ -92,7 +92,7 @@ body
 a
 {
 	padding: 15px;
-	margin-right: 58px;
+	margin-right: 55px;
 	background: url("ata.jpg") no-repeat;
 	background-size: cover;
 	border-radius: 30px;
@@ -114,11 +114,18 @@ a:hover
 	100% {opacity: 1;}
 }
 
-@media (max-width: 1620px) 
+@media (max-width: 1610px) 
 {
 	.pic
 	{
 		display: none;
+	}
+	
+	.review img
+	{
+		margin: auto;
+		width: 320px;
+		height: 320px;
 	}
 
 	.btn a
