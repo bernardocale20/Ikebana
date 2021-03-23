@@ -17,6 +17,9 @@ body
 .pic
 {
 	width: 25%;
+	animation-name: navegacao;
+	animation-duration: 2s;
+}
 }
 
 
@@ -45,6 +48,9 @@ body
 	background: url("c.jpg");
 	background-size: cover;
 	border-radius: 70px;
+	animation-name: navegacao;
+	animation-duration: 2s;
+}
 }
 
 
@@ -99,7 +105,12 @@ a:hover
 }
 
 
-
+@keyframes navegacao 
+{
+	0% {opacity: 0;}
+	50% {opacity: 0;}
+	100% {opacity: 1;}
+}
 
 @media (max-width: 1620px) 
 {
