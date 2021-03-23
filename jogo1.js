@@ -114,7 +114,7 @@ function pontuacao(acao){
 
 function situacao_jogo(baloes_inteiros){ //Aqui eu passo por parametro os baloes_inteiros caso chegue a 0 eu faço a verificação e dou um alert dizendo que o jogo foi vencido
 	if(baloes_inteiros == 0){
-		alert('VOCE GANHOU A VERSÃO HARDCORE DO JOGO, AGORA TIRA PRINTA E POSTA NO GRUPO, VOCE É DEMAIS!');
+		alert('NOSSA, VOCE GANHOU A VERSÃO HARDCORE DO JOGO, AGORA TIRA PRINT E POSTA NO GRUPO, VOCE É DEMAIS!');
 		parar_jogo(); //Essa função para o tempo, dar uma limpa no timeout caso vc complete antes do tempo chegar a 0
 	}
 }
