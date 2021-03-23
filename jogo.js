@@ -58,7 +58,7 @@ function contagem_tempo(segundos){
 }
 
 function game_over(){ //Da um alerta quando o tempo chegar a 0
-	alert('Fim de jogo, você não coletou todos os mels a tempo.');
+	alert('Fim de jogo, você não coletou todo o mel a tempo.');
 }
 
 //Essa função com nome escrito de verde recebe a quantidade de baloes que era ira manipular
@@ -114,7 +114,7 @@ function pontuacao(acao){
 
 function situacao_jogo(baloes_inteiros){ //Aqui eu passo por parametro os baloes_inteiros caso chegue a 0 eu faço a verificação e dou um alert dizendo que o jogo foi vencido
 	if(baloes_inteiros == 0){
-		alert('Parabéns, você conseguiu coletar todos os mels antes do fim do tempo.');
+		alert('Parabéns, você conseguiu coletar todo o mel antes do fim do tempo.');
 		parar_jogo(); //Essa função para o tempo, dar uma limpa no timeout caso vc complete antes do tempo chegar a 0
 	}
 }
